@@ -1,0 +1,30 @@
+h1 {
+    color: white;
+}
+
+.kartyaszoveg {
+    letter-spacing: 1pt;
+    text-align: justify;
+}
+
+h5 {
+    font-size: 22pt;
+    letter-spacing: 1pt;
+    font-weight: bolder;
+    color: white;
+}
+
+.kartya {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.card-body {
+    color: black;
+}
+
+.card-body>p {
+    color: rgb(255, 255, 255);
+    text-indent: 0;
+}
