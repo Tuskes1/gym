@@ -1,10 +1,11 @@
 h1 {
     color: white;
+    text-decoration: underline;
 }
 
 .kartyaszoveg {
     letter-spacing: 1pt;
-    text-align: justify;
+    text-align: center;
 }
 
 h5 {
