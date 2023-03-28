@@ -1,0 +1,16 @@
+.cella {
+    column-count: 4;
+    text-align: center;
+    column-fill: balance;
+}
+
+.hatter{
+    background-color: black;
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+}
+
