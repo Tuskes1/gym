@@ -7,15 +7,19 @@ table{
     margin: auto;
 }
 
-tr{
-    margin: auto;
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
 }
-
-
-td{
-    margin: auto;
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
 }
-
+th {
+    background-color: #f2f2f2;
+    font-size: 18px;
+}
 #maps{
 
 }
