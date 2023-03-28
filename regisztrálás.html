@@ -12,13 +12,13 @@
 	<div class="container">
 		<h2>Regisztráció</h2>
 		<p>Töltse ki az alábbi mezőket a regisztrációhoz.</p>
-		<form id="registration-form">
+		<form action="sikeresregisztralas.html" id="registration-form">
 			<label for="username"><b>Felhasználónév</b></label><br>
 			<input type="text" placeholder="Írja be a felhasználónevét" name="username" id="username" required><br>
 			<span class="error" id="username-error"></span><br>
 
 			<label for="email"><b>Email cím</b></label><br>
-			<input type="text" placeholder="Írja be az email címét" name="email" id="email" required><br>
+			<input type="text" placeholder="Írja be az email címét" name="email" id="email" required><br>	
 			<span class="error" id="email-error"></span><br>
 
 			<label for="password"><b>Jelszó</b></label><br>
@@ -28,6 +28,8 @@
 			<label for="password-repeat"><b>Jelszó ismét</b></label><br>
 			<input type="password" placeholder="Ismételje meg a jelszavát" name="password-repeat" id="password-repeat" required><br>
 			<span class="error" id="password-repeat-error"></span><br>
+
+			<br><input type="checkbox" required> Elfogadom és tudomásul veszem Tüskés szerződési fétételeit!<br>
 
 			<a href="sikeresregisztralas.html"><button type="submit">Regisztráció</button></a>
 		</form>
