@@ -2,8 +2,8 @@
 
 
 
-(fooldal)
+(fooldal) - Tuskes (en)
 arak, bolt - Krisztian
-nyitvatartas, helyszin, elerhetoseg - en
+nyitvatartas, helyszin, elerhetoseg - Tuskes (en)
 edzoterem, edzok -Tamas
 (wellnes, privat edzesek)

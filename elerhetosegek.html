@@ -34,64 +34,26 @@
         </nav>
 
 
-
-
-<div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Hétfö</h5>
-                <p class="card-text">23:59</p>
-            </div>
-        </div>
-
-
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Kedd</h5>
-                <p class="card-text">23:59</p>
-            </div>
-        </div>
-
-
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Szerda</h5>
-                <p class="card-text">23:59</p>
-            </div>
-        </div>
-
-
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Csütörtök</h5>
-                <p class="card-text">23:59</p>
-            </div>
-        </div>
-
-
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Péntek</h5>
-                <p class="card-text">23:59.</p>
-            </div>
-        </div>
-
-
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Szombat</h5>
-                <p class="card-text">23:59</p>
-            </div>
-        </div>
-
-
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">vasárnap</h5>
-                <p class="card-text">23:59</p>
-            </div>
-        </div>
-</div>
+        <table style="">
+            <tr>
+                <th>Hétfö</th>
+                <th>Kedd</th>
+                <th>Szerda</th>
+                <th>Csütörtök</th>
+                <th>Péntek</th>
+                <th>Szombat</th>
+                <th>Vasárnap</th>
+            </tr>
+            <tr>
+                <td>23:59</td>
+                <td>23:59</td>
+                <td>23:59</td>
+                <td>23:59</td>
+                <td>23:59</td>
+                <td>23:59</td>
+                <td>23:59</td>
+            </tr>
+        </table>
 
 
         <div class="nyitvatart">
@@ -110,9 +72,9 @@
 
         <h3>Helyszín:</h3>
         <!--Google map-->
-        <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-            <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                style="border:0" allowfullscreen></iframe>
+
+        <div id="maps">
+            <img src="kepek/maps.png" alt="térkép">
         </div>
 
         <!--Google Maps-->
@@ -120,10 +82,11 @@
 
 
 
-
+    <div class="hirlevel">
         <h5>Iratkozz fel hírlevelünkre</h5>
         <p>email cím: <input type="email"></p>
-
+        <button class="" type="reset">Küldés</button>
+    </div>
 
 
     </container>
