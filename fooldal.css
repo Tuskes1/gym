@@ -1,6 +1,6 @@
 .navbartext {
     color: rgba(63, 63, 63, 0.897);
-    font-size: 30px;
+    font-size: 0px;
 }
 
 .hirlevel {
@@ -10,7 +10,13 @@
     font-size: medium;
 }
 
-
+#cebum{
+    position: fixed;
+    color: #f5f5f5;
+    font-size: 80px;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
 
 button {
@@ -89,4 +95,17 @@ tr:hover {
 
 .card-text-nyitva{
     font-size: medium;
+}
+
+
+#szaunaaa{
+    margin: auto;
+}
+
+#n1card{
+    margin-left: 100px;
+}
+
+#rowww{
+    margin: 100px;
 }
