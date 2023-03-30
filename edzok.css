@@ -36,3 +36,8 @@ p {
     text-justify: auto;
     
 }
+
+.list-group-item {
+    background-color: black;
+    color: white;
+  }
