@@ -15,7 +15,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -24,26 +24,33 @@
                                 width="150px" alt="Cebum gym"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="elerhetosegek.html"> <b class="navbartext">Elérhetőségek</b> </a>
+                        <a class="nav-link" href="elerhetosegek.html"> <b class="navbartextt">Elérhetőségek</b> </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="regisztrálás.html"><b class="navbartext">Regisztrálás</b></a>
+                        <a class="nav-link" href="regisztrálás.html"><b class="navbartextt">Regisztrálás</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="edzok.html"><b class="navbartext">Edzők</a>
+                        <a class="nav-link" href="edzok.html"><b class="navbartextt">Edzők</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.html"><b class="navbartext">Bolt</a>
+                        <a class="nav-link" href="shop.html"><b class="navbartextt">Bolt</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+<div class="bg-dark" >
+<h1 id="cebum">CEBUM GYM</h1>
+
+<br  class="bg-dark"><br>
+<br  class="bg-dark"><br>
+</div>
+
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="kepek/gymphoto.jpg" height="650px" class="d-block w-100" alt="...">
+                <img src="kepek/00000000000000000000.jpg" height="650px" class="d-block w-100" alt="...">
             </div>
         </div>
     </div>
@@ -51,14 +58,14 @@
     <br><br>
 
 
-    <div class="card text-center">
+    <div class="card text-center ">
         <div class="card-header">
             Heti akciók!
         </div>
         <div class="card-body">
             <p class="card-text">Minden héten újabb és újabb akciókkal jövünk csekkold a weboldalon vagy gyere be
                 üzletünkbe</p>
-            <a href="#" class="btn">Go somewhere</a>
+            <a href="shop.html" class="btn">Go somewhere</a>
         </div>
         <div class="card-footer text-muted">
             Minden hétfőn
@@ -74,13 +81,12 @@
             alt="...">
         <div class="card-body">
             <h5 class="card-title">N1</h5>
-            <p class="card-text">Legújabb pörgetőnk</p>
-            <a href="#" class="btn">Go somewhere</a>
+            <p class="card-text">Próbálja ki legújabb pörgetőinket</p>
         </div>
     </div>
 
-    <div class="card bg-dark text-white col-lg-6">
-        <img src="kepek/szauna.jpg" class="card-img" alt="...">
+    <div data-aos="slide-left" id="szaunaaa" class="card bg-dark text-white col-lg-6">
+        <img src="kepek/szauna.jpg" class="card-img" alt="szauna">
         <div class="card-img-overlay">
             <h5 class="card-title">Infra szauna</h5>
             <p class="card-text">Nemsokára nyitjuk meg a wellnes részlegen az új szaunánkat</p>
@@ -90,10 +96,10 @@
 </div>
 
 
-    <div class="row">
+    <div id="rowww" class="row">
 
 
-        <div data-aos="zoom-out" id="cardelerhetoseg" class="card border-dark col-lg-2" style="max-width: 18rem;">
+        <div data-aos="zoom-out" id="cardelerhetoseg" class="card border-dark col-lg-4 ml-4" style="max-width: 18rem;">
             <div class="card-header">Elérhetőségeink</div>
             <div class="card-body text-dark">
                 <p class="card-text-eler">cebum.info@gmail.com</p>
@@ -103,7 +109,7 @@
         </div>
 
 
-        <div class="cardterkep m-5" style="width: 18rem;">
+        <div data-aos="zoom-out" class="cardterkep m-5 col-lg-4 "style="width: 18rem;">
             <img src="kepek/terkep.png" class="card-img-top" alt="térkép">
             <div class="card-body">
                 <p class="card-text-map">Győrújfalu Hársfa u. 99.</p>
@@ -113,7 +119,7 @@
 
 
 
-        <table class="col-lg-2 m-5" id="tablazat">
+        <table data-aos="zoom-out" class="col-lg-4 m-5" id="tablazat">
             <thead>
                 <tr>
                     <th>Nap</th>
@@ -167,7 +173,7 @@
 
     <div class="hirlevel">
         <h5>Iratkozz fel hírlevelünkre</h5>
-        <p>email cím: <input type="email"></p>
+        <input type="email">
         <button class="btn" type="reset">Küldés</button>
     </div>
 
