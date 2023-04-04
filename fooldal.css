@@ -17,7 +17,8 @@
 #gbb {
     background-image: url(kepek/bg.jpg);
     background-size: cover;
-    height: 1100px
+    height: 1100px;
+    background-position: center,center;
 }
 
 .hirlevel {

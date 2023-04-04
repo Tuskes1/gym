@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: url(kepek/bggg.jpg);
     background-size: cover;
+    background-position: center, center;
 }
 input[type=text], input[type=password] {
     padding: 10px;
