@@ -13,7 +13,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ffffff;
+    background-image:url(kepek/bg.jpg);
+    background-size: cover;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
     border-radius: 10px;
@@ -23,7 +24,7 @@ h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #2e2e2e;
+    color: #e2e2e2;
     text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.3);
 }
 
@@ -31,7 +32,7 @@ p {
     font-size: 24px;
     line-height: 1.5;
     margin-bottom: 50px;
-    color: #6d6d6d;
+    color: #ffffffcb;
 }
 
 button {
@@ -76,4 +77,10 @@ button:focus {
 button:active {
     transform: translateY(2px);
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+#brrr{
+    background-color: #00000085;
+    padding: 100px;
+    border-radius: 40px;
 }
