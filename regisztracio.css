@@ -41,6 +41,15 @@ span.error {
     background-color: rgba(0, 0, 0, 0.466);
 }
 
-.navbartextt{
+/* .navbartextt{
+    color: #ccc;
+} */
+
+.navbartext {
+    color: white;
+    font-size: 110px;
+}
+
+.asd {
     color: #ccc;
 }
